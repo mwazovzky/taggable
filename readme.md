@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/mwazovzky/taggable.svg?branch=master)](https://travis-ci.org/mwazovzky/taggable)
-
 [![Coverage Status](https://coveralls.io/repos/github/mwazovzky/taggable/badge.svg?branch=master)](https://coveralls.io/github/mwazovzky/taggable?branch=master)
 
 <h2 align="center">
