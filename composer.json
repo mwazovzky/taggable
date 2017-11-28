@@ -1,0 +1,24 @@
+{
+    "name": "mikewazovzky/taggable",
+    "description": "Laravel Package makes model taggable.",
+	"keywords": ["laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Wazovzky",
+            "email": "mike.wazovzky@gmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "Mikewazovzky\\Taggable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mikewazovzky\\Taggable\\TaggableServiceProvider"
+            ]
+        }
+    }
+}
