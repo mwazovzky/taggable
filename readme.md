@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.org/mikewazovzky/taggable.svg?branch=master)](https://travis-ci.org/mikewazovzky/taggable)
+[![Build Status](https://travis-ci.org/mwazovzky/taggable.svg?branch=master)](https://travis-ci.org/mwazovzky/taggable)
 
-[![Coverage Status](https://coveralls.io/repos/github/mikewazovzky/taggable/badge.svg?branch=master)](https://coveralls.io/github/mikewazovzky/taggable?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/mwazovzky/taggable/badge.svg?branch=master)](https://coveralls.io/github/mwazovzky/taggable?branch=master)
 
 <h2 align="center">
 	<img src="https://laravel.com/assets/img/components/logo-laravel.svg">
 </h2>
 
-### Project: mikewazovzky\taggable
+### Project: mwazovzky\taggable
 
 ### Description
 Laravel Package. Makes any model taggable.
@@ -19,7 +19,7 @@ Laravel Package. Makes any model taggable.
 
 1. Pull the package into Laravel project
 ```
-composer require mikewazovzky/taggable
+composer require mwazovzky/taggable
 ```
 
 2. For Laravel 5.4 or below register package service provider at `/config/app.php`.<br>
@@ -30,7 +30,7 @@ Package will be auto-registered for Laravel 5.5 and above.
 ...
 'providers' => [
 ...
-\Mikewazovzky\Taggable\TaggableServiceProvider::class
+\MWazovzky\Taggable\TaggableServiceProvider::class
 ...
 ];
 ...

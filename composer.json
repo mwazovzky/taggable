@@ -11,13 +11,13 @@
     ],
 	"autoload": {
         "psr-4": {
-            "Mikewazovzky\\Taggable\\": "src/"
+            "MWwazovzky\\Taggable\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Mikewazovzky\\Taggable\\TaggableServiceProvider"
+                "MWazovzky\\Taggable\\TaggableServiceProvider"
             ]
         }
     }
