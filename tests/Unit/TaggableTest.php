@@ -18,7 +18,7 @@ class TaggableTest extends TestCase
         //
     }
 
-    protected function setUp()
+    protected function setUp() : void
     {
         parent::setUp();
 
@@ -27,7 +27,7 @@ class TaggableTest extends TestCase
         $this->dummy = Dummy::create(['name' => 'Mary']);
     }
 
-    protected function tearDown()
+    protected function tearDown() : void
     {
         Dummy::deleteTable();
     }
